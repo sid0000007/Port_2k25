@@ -100,9 +100,11 @@
   padding-top: 1.5rem;
   line-height: normal;
 }
+
 .dark-mode-text {
   color: $textColorDark !important;
 }
+
 .experience-text-date {
   text-align: center;
   color: $textColor;
@@ -121,8 +123,19 @@
   margin-top: 2rem;
 }
 
-/* Media Query */
+// New styles for bullet points
+.experience-bullet-points {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
 
+.bullet-point {
+  font-size: 14px; // Smaller font size for bullet points
+  line-height: 1.4;
+  margin-bottom: 0.25rem;
+}
+
+/* Media Query */
 @media (max-width: 1380px) {
   .experience-text-role {
     padding-top: 0.5rem;
@@ -138,6 +151,9 @@
     width: 6.5rem;
     height: 6.5rem;
   }
+  .bullet-point {
+    font-size: 13px; // Even smaller on medium screens
+  }
 }
 
 @media (max-width: 768px) {
@@ -152,5 +168,8 @@
   }
   .experience-text-desc {
     font-size: 16px;
+  }
+  .bullet-point {
+    font-size: 12px; // Smallest on mobile screens
   }
 }

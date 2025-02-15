@@ -120,7 +120,7 @@ const educationInfo = {
       schoolName: "USICT, IP University",
       logo: require("./assets/images/ipu.png"),
       subHeader: "Engineer in Computer Science",
-      duration: "Sept 2022 - Dec 2025",
+      duration: "Sept 2022 - march 2026",
 
       descBullets: [
         "Core: Operating system, Artifical Intelligence, Machine Learning",
